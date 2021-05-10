@@ -10,7 +10,7 @@ firebase.initializeApp({
     projectId: REACT_APP_PROJECTID,
     storageBucket: REACT_APP_STORAGEBUCKET,
     messagingSenderId: REACT_APP_MESSAGINGSENDERID,
-    appId: REACT_APP_APPID
+    appId: REACT_APP_APPID,
 })
 
 const auth = firebase.auth();
